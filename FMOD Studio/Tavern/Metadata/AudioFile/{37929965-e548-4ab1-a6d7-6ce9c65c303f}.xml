@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{37929965-e548-4ab1-a6d7-6ce9c65c303f}">
+		<property name="assetPath">
+			<value>freesound_community-fantasy_ui_button_6-102219.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.488</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{50d72ab3-daed-4445-87e4-be072c89b91b}</destination>
+		</relationship>
+	</object>
+</objects>
