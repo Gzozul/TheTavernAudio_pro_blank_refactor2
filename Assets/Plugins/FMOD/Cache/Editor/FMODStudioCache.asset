@@ -449,10 +449,10 @@ MonoBehaviour:
   Path: FMOD Studio/Tavern/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639177509389293505
+  lastModified: 639182032558614207
   FileSizes:
   - Name: Desktop
-    Value: 2048
+    Value: 2084
   Exists: 1
 --- !u!114 &-1007948039134574036
 MonoBehaviour:
@@ -469,10 +469,10 @@ MonoBehaviour:
   Path: FMOD Studio/Tavern/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639177509389268260
+  lastModified: 639182032558589156
   FileSizes:
   - Name: Desktop
-    Value: 7703328
+    Value: 8062336
   Exists: 1
 --- !u!114 &-973073909314293744
 MonoBehaviour:
@@ -586,13 +586,14 @@ MonoBehaviour:
   - {fileID: 3226438458210135971}
   - {fileID: 7182339169514547738}
   - {fileID: 3150930750896089234}
+  - {fileID: 7064745958291496729}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1007948039134574036}
   StringsBanks:
   - {fileID: -2404008829001630787}
   cacheVersion: 131860
-  cacheTime: 639177509389293505
+  cacheTime: 639182032558614207
   SerializableEventsDict:
   - key: event:/Doors_single
     index: 0
@@ -620,6 +621,8 @@ MonoBehaviour:
     index: 11
   - key: event:/Footsteps/Jump
     index: 12
+  - key: event:/Spell
+    index: 13
 --- !u!114 &403115299064979494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,14 +807,14 @@ MonoBehaviour:
     Data4: -1656055211
   Banks:
   - {fileID: -1007948039134574036}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
   - {fileID: -3883811949351221671}
   MinDistance: 1
   MaxDistance: 20
-  Length: 22237
+  Length: 38818
 --- !u!114 &3226438458210135971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1184,6 +1187,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
+--- !u!114 &7064745958291496729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Impact
+  Guid:
+    Data1: -2071004876
+    Data2: 1078359394
+    Data3: 2088116356
+    Data4: -539455900
+  Banks:
+  - {fileID: -1007948039134574036}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2904
 --- !u!114 &7182339169514547738
 MonoBehaviour:
   m_ObjectHideFlags: 0
